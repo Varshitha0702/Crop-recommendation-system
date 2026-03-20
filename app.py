@@ -3,10 +3,9 @@ import joblib
 import pandas as pd
 
 # Load model
-model = joblib.load("adaptive_crop_recommender_model.pkl")
-scaler = joblib.load("scaler.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
-
+model = joblib.load("models/adaptive_crop_recommender_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
+label_encoder = joblib.load("models/label_encoder.pkl")
 st.title("🌱 Crop Recommendation System")
 
 # Inputs

@@ -22,7 +22,7 @@ def load_data():
             return pd.read_csv(f"/mnt/data/{p}")
     raise FileNotFoundError("Place your dataset as 'Crop_Data.xlsx.csv' or 'Crop_recommendation.csv' in the working directory.")
 
-data = load_data()
+data = pd.read_csv("data/crop_recommendation.csv")
 print("Columns in dataset:", data.columns)
 
 """## 2. Prepare Features and Target"""
