@@ -3,7 +3,7 @@
 
 ## 🌐 Live Demo
 
-👉[ https://your-app-name.streamlit.app](https://crop-recommendation-system-i7lezi9gbxrqmxs2cxqrwh.streamlit.app/)
+👉[Predict Best Crop for Your Soil](https://crop-recommendation-system-i7lezi9gbxrqmxs2cxqrwh.streamlit.app/)
 
 ---
 
